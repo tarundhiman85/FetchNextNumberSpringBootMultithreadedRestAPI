@@ -1,0 +1,21 @@
+Fetch Next Number SpringBoot Multithreaded RestAPI
+This is a rest api which gets a code then check for the value if present in the database. if present then gives us the next greater number that is divisble by 10.
+
+to use this api check this example on postman:
+
+For example if a user gives:
+
+{ "newValue": 38, "categoryCode": 1 }
+
+then the user gets:
+
+{ "oldValue": 38, "newValue": 46, "categoryCode": 1 }
+
+Deployment : http://localhost:8080/api/Number
+
+Tools Used: IntelliJ IDEA Ultimate, Postman
+
+In the IMP folder see the images for database schema and directory Structure.
+
+
+
