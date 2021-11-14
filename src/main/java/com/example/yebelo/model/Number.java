@@ -11,14 +11,6 @@ import javax.persistence.*;
 @Setter(AccessLevel.PUBLIC)
 @ToString
 @Entity
-//@NamedNativeQueries({
-//        @NamedNativeQuery(
-//                name = "FindByCategoryCode",
-//                query = "SELECT id, firstName, lastName, email, department.id, department.name " +
-//                        "FROM employee, department",
-//                resultClass=EmployeeEntity.class
-//        )
-//})
 public class Number {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

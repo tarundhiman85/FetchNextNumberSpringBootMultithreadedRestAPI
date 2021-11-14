@@ -36,12 +36,12 @@ public class NumberController {
     @PostMapping()
     public Number getNumber(@RequestBody Number number){
         numberService.getNumber(number);
+        sleep(5);
         if(numberService.findNById(number.getCategoryCode()).isPresent()){
-            sleep(5);
+
             return numberService.findNById(number.getCategoryCode()).get();
         }
         else{
-            sleep(5);
             return number;
         }
     }
