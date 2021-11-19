@@ -3,7 +3,7 @@ This is a simple rest api here which fetces a number from user and give hime the
 
 ## Deployment
 http://localhost:8080/api/Number
-Eg:
+
 
 ## Get API
 {
