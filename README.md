@@ -14,6 +14,6 @@ http://localhost:8080/api/Number
 ## Respone Api
 {
     "newValue": 19,
-    "oldValue":20,
+    "oldValue":1,
     "categoryCode": 1
 }
