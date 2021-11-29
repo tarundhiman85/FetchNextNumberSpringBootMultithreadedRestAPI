@@ -1,5 +1,6 @@
 # FetchNextNumberSpringBootMultithreadedRestAPI
-This is a simple rest api here which fetces a number from user and give hime the next big number.
+This is a simple rest Api here which fetches a number from user and give him the next big number.
+
 
 ## Deployment
 http://localhost:8080/api/Number
